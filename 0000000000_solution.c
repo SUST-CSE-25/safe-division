@@ -8,11 +8,11 @@ int main(void)
     if (scanf("%d %d", &a, &b) != 2) {
         return 1;
     }
+    // Prevent division by zero
     if (b == 0) {
-    printf("Error: division by zero\n");
-    return 0;
-}
-
+        printf("Error: division by zero\n");
+        return 1;
+    }
     printf("%d\n", a / b);
 
     return 0;
