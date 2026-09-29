@@ -1,0 +1,6 @@
+# Keep Unix line endings for files that bash and make read, also on Windows.
+*.sh      text eol=lf
+Makefile  text eol=lf
+*.in      text eol=lf
+*.out     text eol=lf
+*.c       text eol=lf

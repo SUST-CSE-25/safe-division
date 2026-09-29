@@ -1,0 +1,6 @@
+# compiled programs
+build/
+*.exe
+*.o
+*.pdf
+TEACHER.md
