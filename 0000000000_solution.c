@@ -6,12 +6,12 @@ int main(void)
     int a, b;
 
     if (scanf("%d %d", &a, &b) != 2) {
-        return 1;
+        return 0;
     }
     // Prevent division by zero
     if (b == 0) {
         printf("Error: division by zero\n");
-        return 1;
+        return 0;
     }
     printf("%d\n", a / b);
 
