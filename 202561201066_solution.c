@@ -1,4 +1,4 @@
-// Safe Division: read two integers a and b, print a / b.
+// Safe Division: read two integers a and b, print a / b
 #include <stdio.h>
 
 int main(void)
